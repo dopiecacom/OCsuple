@@ -924,6 +924,7 @@ margin-right:20px;
 
 #porady .porada .porada-text{
     padding-top: 39px;
+	    margin-right: 50px;
 }
 
 #porady .porada h4{
@@ -965,9 +966,20 @@ margin-top:60px;
 	font-size:21px;
 }
 
-footer {
+footer  {
 	
 	background-color:#000;
 
 }
+footer h5 {
+	
+font-size:20px;
 
+}
+
+
+footer ul li{
+	
+font-size:15px;
+
+}
