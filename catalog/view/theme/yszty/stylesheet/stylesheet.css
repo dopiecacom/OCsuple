@@ -744,3 +744,208 @@ h2.price {
     background-image: none;
     background-color: #df5c39;
 }
+
+
+
+
+
+
+/*      YSZTY CSS  */
+
+*{
+	font-family:Arial!important;
+}
+
+#logo {
+	margin:0;
+}
+
+#logo img {
+	margin-top:20px;
+		margin-bottom:20px;
+}
+
+#menu {
+    background-color: #000000;
+    background-image: none;
+    background-repeat: repeat-x;
+    border: 0;
+    min-height: 40px;
+	    border-radius: 0px;
+}
+
+
+
+
+#nawigacja {
+
+	color:white;
+	
+	
+}
+
+
+#nawigacja ul {
+	list-style: none;
+}
+	
+#nawigacja ul li{
+float: left;
+    margin-left: 40px;
+    margin-top: 33px;
+    font-size: 16px;
+    font-family: arial;
+    padding: 4px 5px;
+}
+
+
+
+#login-button {
+	
+	background-color:#e31e24;
+}
+
+
+#sub-menu{
+	
+		background-color:#e31e24;
+	
+}
+
+#baner{
+	
+background:url("http://nitro.dopieca.com/image/catalog/baner.png");	
+min-height:485px;
+}
+
+
+#baner .baner-text{
+float: left;
+    margin-left: 300px;
+    margin-top: 100px;
+    color: white;
+}
+	
+
+
+#baner .baner-text h1{
+		font-size: 27px;
+		color: white;
+		    margin-bottom: 0;
+}
+
+#baner .baner-text p{
+    margin-bottom: 40px;
+}
+#baner .lista-baner {
+		margin-bottom: 40px;
+}
+
+#baner .lista-baner ul{
+	list-style:none;
+	padding-left:0;
+	margin-bottom: 0;
+}
+
+#baner .lista-baner ul li{
+    font-size: 16px;
+	    margin-bottom: 4px;
+}
+
+
+
+
+
+#baner .lista-baner span.bull {
+    font-size: 36px;
+    float: left;
+	color:#e31e24;
+	margin-right:5px;
+}
+
+#baner .ikony-baner img{
+margin-right:20px;
+}
+
+
+#dlaczego-warto{
+	margin-top:85px;
+	margin-bottom:75px;
+}
+
+#dlaczego-warto h2{
+		margin-bottom:45px;
+	text-align:center;
+	color:#e31e24;
+	    font-weight: 600;
+}
+
+#dlaczego-warto p{
+
+	    text-align: center;
+    line-height: 1.8;
+	color:#353535;
+	font-size:18px;
+
+}
+
+.skladniki img{
+	
+	margin: 0 auto;
+    display: block;
+}
+
+
+.skladniki h3{
+	
+	text-align:center;
+	text-transform: uppercase;
+    font-size: 30px;
+}
+
+.skladniki p{
+		margin: 0px 50px;
+		    text-align: justify;
+				color:black;
+}
+
+#porady{
+	
+	margin-top:120px;
+}
+
+#porady .porada {
+	    margin-bottom: 40px;
+}
+#porady .porada img{
+	float:left;
+	margin-right:100px;
+}
+
+#porady .porada .porada-text{
+    padding-top: 39px;
+}
+
+#porady .porada h4{
+	color:#e31e24;
+
+	    font-size: 28px;
+    font-weight: 600;
+}
+#porady .porada p{
+font-size: 17px;
+    line-height: 1.4;
+	color:black;
+}
+
+#content {
+    min-height: 0;
+}
+
+
+footer {
+	
+	background-color:#000;
+
+}
+
