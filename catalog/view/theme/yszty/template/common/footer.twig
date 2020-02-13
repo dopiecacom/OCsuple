@@ -1,0 +1,70 @@
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-3">
+        <h5>Adres</h5>
+        <ul class="list-unstyled">
+          <li>ul. Strzelców 26</li>
+          <li>31-422 Kraków</li>
+          <li>tel: +48 501 548 641</li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+      <h5>Menu</h5>
+        <ul class="list-unstyled">
+          <li>Strona główna</li>
+          <li>Sklep</li>
+          <li>Kontakt</li>
+
+        </ul>
+      </div>
+	  
+	        {% if informations %}
+      <div class="col-sm-3">
+		   <h5>Sklep</h5> 
+        <ul class="list-unstyled">
+         {% for information in informations %}
+          <li><a href="{{ information.href }}">{{ information.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+	  
+	  
+      <div class="col-sm-3">
+        <h5>Konto</h5>
+        <ul class="list-unstyled">
+		
+          <li><a href="{{ account }}">{{ text_account }}</a></li>
+          <li><a href="{{ order }}">{{ text_order }}</a></li>
+
+          <!-- <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li> -->
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+  
+    <div class="container">
+		<div class="row">
+		<div id="social-footer">
+		<p>Znajdziesz nas na</p>
+		<div class ="social-ico">
+		<img src ="http://nitro.dopieca.com/image/catalog/fb-ico.png">
+		<img src ="http://nitro.dopieca.com/image/catalog/i-ico.png">
+		
+		</div>
+		</div>
+		</div>
+		</div>
+</footer>
+{% for script in scripts %}
+<script src="{{ script }}" type="text/javascript"></script>
+{% endfor %}
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</body></html>
