@@ -942,6 +942,28 @@ font-size: 17px;
     min-height: 0;
 }
 
+#social-footer{
+margin-top:60px;	
+	
+}
+
+#social-footer .social-ico{
+ text-align: center;
+     margin-top: 30px;
+	     margin-bottom: 30px;
+	
+}
+
+#social-footer .social-ico img:first-of-type{
+    margin-right: 40px;
+	
+}
+
+
+#social-footer p{
+	text-align:center;
+	font-size:21px;
+}
 
 footer {
 	
