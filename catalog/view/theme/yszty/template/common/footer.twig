@@ -1,9 +1,28 @@
 <footer>
   <div class="container">
     <div class="row">
-      {% if informations %}
+
       <div class="col-sm-3">
-        <h5>{{ text_information }}</h5>
+        <h5>Adres</h5>
+        <ul class="list-unstyled">
+          <li>ul. Strzelców 26</li>
+          <li>31-422 Kraków</li>
+          <li>tel: +48 501 548 641</li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+      <h5>Menu</h5>
+        <ul class="list-unstyled">
+          <li>Strona główna</li>
+          <li>Sklep</li>
+          <li>Kontakt</li>
+
+        </ul>
+      </div>
+	  
+	        {% if informations %}
+      <div class="col-sm-3">
+		   <h5>Sklep</h5> 
         <ul class="list-unstyled">
          {% for information in informations %}
           <li><a href="{{ information.href }}">{{ information.title }}</a></li>
@@ -11,25 +30,10 @@
         </ul>
       </div>
       {% endif %}
+	  
+	  
       <div class="col-sm-3">
-        <h5>{{ text_service }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ contact }}">{{ text_contact }}</a></li>
-          <li><a href="{{ return }}">{{ text_return }}</a></li>
-          <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5>{{ text_extra }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
-          <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
-          <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
-          <li><a href="{{ special }}">{{ text_special }}</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5>{{ text_account }}</h5>
+        <h5>Konto</h5>
         <ul class="list-unstyled">
           <li><a href="{{ account }}">{{ text_account }}</a></li>
           <li><a href="{{ order }}">{{ text_order }}</a></li>
@@ -38,9 +42,22 @@
         </ul>
       </div>
     </div>
-    <hr>
-    <p>{{ powered }}</p>
+
+
   </div>
+  
+    <div class="container">
+		<div class="row">
+		<div id="social-footer">
+		<p>Znajdziesz nas na</p>
+		<div class ="social-ico">
+		<img src ="http://nitro.dopieca.com/image/catalog/fb-ico.png">
+		<img src ="http://nitro.dopieca.com/image/catalog/i-ico.png">
+		
+		</div>
+		</div>
+		</div>
+		</div>
 </footer>
 {% for script in scripts %}
 <script src="{{ script }}" type="text/javascript"></script>
