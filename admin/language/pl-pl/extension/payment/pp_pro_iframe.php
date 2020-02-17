@@ -1,0 +1,174 @@
+<?php
+// Heading
+$_['heading_title']					 = 'PayPal Pro iFrame';
+
+// Text
+$_['text_extension']                 = 'Rozszerzenia';
+$_['text_success']					= 'Sukces: Zmiany zostały zapisane!';
+$_['text_edit']                     = 'Edycja płatności PayPal Pro iFrame';
+$_['text_pp_pro_iframe']			= '<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_authorization']			= 'Autoryzacja';
+$_['text_sale']						= 'Sprzedaż';
+$_['text_payment_info']				= 'Informacje o płatności';
+$_['text_capture_status']			= 'Status przechwycenia';
+$_['text_amount_auth']				= 'Kwota autoryzowana';
+$_['text_amount_captured']			= 'Kwota przechwycona';
+$_['text_amount_refunded']			= 'Kwota zwrócona';
+$_['text_capture_amount']			= 'Przechwyć kwotę';
+$_['text_complete_capture']			= 'Zakończ przechwytywanie';
+$_['text_transactions']				= 'Transakcje';
+$_['text_complete']					= 'Zakończone';
+$_['text_confirm_void']				= 'Jeśli unieważnisz nie będziesz mógł przechwycić jakichkolwiek dalszych funduszy';
+$_['text_view']						= 'Zobacz';
+$_['text_refund']					= 'Zwróć';
+$_['text_resend']					= 'Wyślij ponownie';
+$_['text_reauthorise']				= 'Autoryzuj ponownie';
+$_['text_reauthorised']				= 'Transakcja została ponownie autoryzowana';
+$_['text_transaction']				= 'Transakcja';
+$_['text_product_lines']			= 'Linie produktu';
+$_['text_ebay_txn_id']				= 'ID transakcji eBay';
+$_['text_name']						= 'Nazwa';
+$_['text_qty']						= 'Ilość';
+$_['text_price']					= 'Cena';
+$_['text_number']					= 'Numer';
+$_['text_coupon_id']				= 'ID kuponu';
+$_['text_coupon_amount']			= 'Kwota kuponu';
+$_['text_coupon_currency']			= 'Waluta kuponu';
+$_['text_loyalty_disc_amt']			= 'Kwota karty lojalnościowej';
+$_['text_loyalty_currency']			= 'Waluta karty lojalnościowej';
+$_['text_options_name']				= 'Nazwa opcji';
+$_['text_tax_amt']					= 'Kwota podatku';
+$_['text_currency_code']			= 'Kod waluty';
+$_['text_amount']					= 'Kwota';
+$_['text_gift_msg']					= 'Wiadomość prezentu';
+$_['text_gift_receipt']				= 'Pokwitowanie prezentu';
+$_['text_gift_wrap_name']			= 'Nazwa opakowania prezentu';
+$_['text_gift_wrap_amt']			= 'Kwota opakowania prezentu';
+$_['text_buyer_email_market']		= 'Email marketingowy kupującego';
+$_['text_survey_question']			= 'Pytanie w sondzie';
+$_['text_survey_chosen']			= 'Wybrana odpowiedź w sondzie';
+$_['text_receiver_business']		= 'Firma odbiorcy';
+$_['text_receiver_email']			= 'Email odbiorcy';
+$_['text_receiver_id']				= 'ID odbiorcy';
+$_['text_buyer_email']				= 'Email kupującego';
+$_['text_payer_id']					= 'ID płacącego';
+$_['text_payer_status']				= 'Status płacącego';
+$_['text_country_code']				= 'Kod państwa';
+$_['text_payer_business']			= 'Firma płacącego';
+$_['text_payer_salute']				= 'Powitanie płacącego';
+$_['text_payer_firstname']			= 'Imię płacącego';
+$_['text_payer_middlename']			= 'Drugie imię płacącego';
+$_['text_payer_lastname']			= 'Nazwisko płacącego';
+$_['text_payer_suffix']				= 'Sufiks płacącego';
+$_['text_address_owner']			= 'Właściciel adresu';
+$_['text_address_status']			= 'Status adresu';
+$_['text_ship_sec_name']			= 'Drugie imię wysyłki';
+$_['text_ship_name']				= 'Nazwisko wysyłki';
+$_['text_ship_street1']				= 'Adres 1 wysyłki';
+$_['text_ship_street2']				= 'Adres 2 wysyłki';
+$_['text_ship_city']				= 'Miasto wysyłki';
+$_['text_ship_state']				= 'Region wysyłki';
+$_['text_ship_zip']					= 'Kod pocztowy wysyłki';
+$_['text_ship_country']				= 'Kod kraju wysyłki';
+$_['text_ship_phone']				= 'Numer telefonu wysyłki';
+$_['text_ship_sec_add1']			= 'Dodatkowy adres 1 wysyłki';
+$_['text_ship_sec_add2']			= 'Dodatkowy adres 2 wysyłki';
+$_['text_ship_sec_city']			= 'Dodatkowa miejscowość wysyłki';
+$_['text_ship_sec_state']			= 'Dodatkowy region wysyłki';
+$_['text_ship_sec_zip']				= 'Dodatkowy kod pocztowy wysyłki';
+$_['text_ship_sec_country']			= 'Dodatkowy kod kraju wysyłki';
+$_['text_ship_sec_phone']			= 'Dodatkowy numer telefonu wysyłki';
+$_['text_trans_id']					= 'ID transakcji';
+$_['text_receipt_id']				= 'ID kwitu';
+$_['text_parent_trans_id']			= 'ID transakcji nadrzędnej';
+$_['text_trans_type']				= 'Typ transakcji';
+$_['text_payment_type']				= 'Typ płatności';
+$_['text_order_time']				= 'Czas zamówienia';
+$_['text_fee_amount']				= 'Kwota opłat';
+$_['text_settle_amount']			= 'Kwota rozliczenia';
+$_['text_tax_amount']				= 'Kwota podatku';
+$_['text_exchange']					= 'Kurs wymiany';
+$_['text_payment_status']			= 'Status płatności';
+$_['text_pending_reason']			= 'Przyczyna oczekiwania';
+$_['text_reason_code']				= 'Kod przyczyny';
+$_['text_protect_elig']				= 'Kwalifikacja ochrony';
+$_['text_protect_elig_type']		= 'Typ kwalifikacji ochrony';
+$_['text_store_id']					= 'ID sklepu';
+$_['text_terminal_id']				= 'ID terminala';
+$_['text_invoice_number']			= 'Numer faktury';
+$_['text_custom']					= 'Niestandardowy';
+$_['text_note']						= 'Notatka';
+$_['text_sales_tax']				= 'Podatek od sprzedaży';
+$_['text_buyer_id']					= 'ID kupującego';
+$_['text_close_date']				= 'Data zamknięcia';
+$_['text_multi_item']				= 'Multi przedmiot';
+$_['text_sub_amt']					= 'Kwota subskrypcji';
+$_['text_sub_period']				= 'Okres subskrypcji';
+$_['text_redirect']					= 'Przekierowanie';
+$_['text_iframe']					= 'Iframe';
+$_['help_checkout_method']			= "Użyj metody Przekierowanie jeśli nie masz zainstalowanego SSL lub jeśli nie masz wyłączonej opcji płacę z Paypal na stronie płatności.";
+$_['help_debug']					= "Zapisuje dodatkowe informacje.";
+
+// Column
+$_['column_trans_id']				= 'ID transakcji';
+$_['column_amount']					= 'Kwota';
+$_['column_type']					= 'Typ płatności';
+$_['column_status']					= 'Status';
+$_['column_pending_reason']			= 'Przyczyna oczekiwania';
+$_['column_date_added']				= 'Data dodania';
+$_['column_action']					= 'Działania';
+
+// Tab
+$_['tab_settings']					= 'Ustawienia';
+$_['tab_order_status']				= 'Status zamówienia';
+$_['tab_checkout_customisation']	= 'Dostosowanie zamówienia';
+
+// Entry
+$_['entry_username']				= 'Użytkownik API';
+$_['entry_password']				= 'Hasło API';
+$_['entry_signature']				= 'Sygnatura API';
+$_['entry_test']					= 'Tryb testowy';
+$_['entry_total']					= 'Suma';
+$_['entry_order_status']			= 'Status zamówienia';
+$_['entry_geo_zone']				= 'Strefa geograficzna';
+$_['entry_status']					= 'Status';
+$_['entry_sort_order']				= 'Kolejność wyświetlania';
+$_['entry_transaction_method']		= 'Metoda transakcji:';
+$_['entry_transaction_id']			= 'ID transakcji';
+$_['entry_full_refund']				= 'Pełny zwrot';
+$_['entry_amount']					= 'Kwota';
+$_['entry_message']					= 'Wiadmość';
+$_['entry_ipn_url']					= 'IPN URL';
+$_['entry_checkout_method']			= 'Metoda zamówienia';
+$_['entry_debug']					= 'Tryb debugowania';
+$_['entry_canceled_reversal_status'] = 'Status Unieważnienie zwrotu';
+$_['entry_completed_status']		= 'Status Zakończone';
+$_['entry_denied_status']			= 'Status Odrzucone';
+$_['entry_expired_status']			= 'Status Wygasłe';
+$_['entry_failed_status']			= 'Status Nieudane';
+$_['entry_pending_status']			= 'Status Oczekujące';
+$_['entry_processed_status']		= 'Status Przetworzone';
+$_['entry_refunded_status']			= 'Status Zwrócono pieniądze';
+$_['entry_reversed_status']			= 'Status Zwrócone';
+$_['entry_voided_status']			= 'Status Unieważnione';
+
+// Help
+$_['help_test']						= 'Użyj produkcyjnej czy testowej (sandbox) bramki do przetwarzania transakcji? Test może się nie powieść pod Internet Explorer';
+$_['help_total']					= 'Kwota którą musi osiągnąć zamówienie aby ta metoda płatności była aktywna.';
+
+// Button
+$_['button_refund']					= 'Zwróć';
+$_['button_void']					= 'Unieważnij';
+$_['button_capture']				= 'Przechwyć';
+$_['button_reauthorise']			= 'Autoryzuj ponownie';
+
+// Error
+$_['error_permission']      = 'Uwaga: Nie masz uprawnień do tego działu!';
+$_['error_sig']						= 'Sygnatura jest wymagana!';
+$_['error_user']					= 'Użytkownik jest wymagany!';
+$_['error_password']				= 'Hasło jest wymagane!';
+$_['error_timeout']					= 'Upłynął limit czasu żądania';
+$_['error_transaction_missing']		= 'Nie znaleziono transakcji';
+$_['error_missing_data']			= 'Brakuje danych';
+$_['error_general']					= 'Wystąpił błąd';
+$_['error_capture']				= 'Podaj kwotę do przechwycenia';
