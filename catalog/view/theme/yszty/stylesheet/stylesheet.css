@@ -753,7 +753,14 @@ h2.price {
 /*      YSZTY CSS  */
 
 *{
-	font-family:Arial!important;
+
+}
+a {
+    color: #000000;
+}
+a:focus, a:hover {
+    color: #5b656d;
+    text-decoration: none;
 }
 .btn {
 	    border-radius: 0px;
@@ -851,6 +858,11 @@ float: left;
 
 #nawigacja ul li a{
 color:white;
+}
+
+#nawigacja ul li a:hover {
+    color: #5b656d;
+    text-decoration: none;
 }
 
 
