@@ -816,6 +816,7 @@ a:focus, a:hover {
 	padding: 8px 0;
 	border: 1px solid #ddd;
 	border-radius: 0px;
+	margin-top:10px;
 }
 #product .form-group .form-control{
 	
