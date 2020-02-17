@@ -762,10 +762,15 @@ a:focus, a:hover {
     color: #5b656d;
     text-decoration: none;
 }
+
 .btn {
 	    border-radius: 0px;
     box-shadow: none;
 
+}
+
+.btn-default {
+    color: #000;
 }
 
 .btn-primary {
@@ -806,7 +811,12 @@ a:focus, a:hover {
 	    border: none;
     border-radius: 0px;
 }
-
+.breadcrumb {
+	margin: 0 0 20px 0;
+	padding: 8px 0;
+	border: 1px solid #ddd;
+	border-radius: 0px;
+}
 #product .form-group .form-control{
 	
 	display:inline;
