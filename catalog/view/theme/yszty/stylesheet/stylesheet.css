@@ -891,6 +891,10 @@ color:white;
     padding-bottom: 3px;
 }
 
+#sub-menu a{
+color:white;
+}
+
 #cart-total{
 	margin-top:3px;
 	margin-bottom:3px;
