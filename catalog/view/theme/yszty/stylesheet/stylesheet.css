@@ -918,6 +918,7 @@ float: left;
 
 
 #baner .baner-text h1{
+		font-family:BebasNeue;
 		font-size: 27px;
 		color: white;
 		    margin-bottom: 0;
@@ -963,6 +964,8 @@ margin-right:20px;
 }
 
 #dlaczego-warto h2{
+		font-family:BebasNeue;
+		letter-spacing: 4.6px;
 		margin-bottom:45px;
 	text-align:center;
 	color:#e31e24;
@@ -986,7 +989,7 @@ margin-right:20px;
 
 
 .skladniki h3{
-	
+	font-family:BebasNeue;
 	text-align:center;
 	text-transform: uppercase;
     font-size: 30px;
@@ -996,6 +999,9 @@ margin-right:20px;
 		margin: 0px 50px;
 		    text-align: justify;
 				color:black;
+				font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
 }
 
 #porady{
@@ -1018,7 +1024,8 @@ margin-right:20px;
 
 #porady .porada h4{
 	color:#e31e24;
-
+	    letter-spacing: 1.5px;
+	font-family:BebasNeue;
 	    font-size: 28px;
     font-weight: 600;
 }
@@ -1072,3 +1079,36 @@ footer ul li{
 font-size:15px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	@font-face {
+		font-family: BebasNeue;
+		src: url(/catalog/view/theme/yszty/stylesheet/fonts/BebasNeue-Regular.ttf);
+	}
+
+
