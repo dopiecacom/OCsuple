@@ -39,6 +39,23 @@
 	</head>
 	<body>
 		
+		
+		
+		
+			
+			<div class = "container">
+			<div id ="free-shipping">
+			
+		<p><i class="fa fa-shopping-cart"></i><span>DARMOWA WYSYŁKA</span>  dla zamówień od 250,00PLN</p>
+			
+			</div>
+			</div>
+	
+		
+
+		
+		
+		
 		<nav id = "menu">
 			<div class = "container">
 				
@@ -58,11 +75,12 @@
 						
 								<li><a href ="http://nitro.dopieca.com/index.php?route=product/product&product_id=50">Kup</a></li> 
 								<li><a href="{{ contact }}">Kontakt</a></li> 
-								<li id ="login-button"><a href="{{ login }}">Zaloguj się</a></li> 
+								<li id ="login-button"><img src="/image/user-circle-regular.svg"/><a href="{{ login }}">Zaloguj się</a></li> 
+							<li id ="koszyk">	<img src="/image/shopping-bag-solid.svg"/><a href="{{ shopping_cart }}">{{ cart }}</a></li>
 								            <!-- <li><a href="{{ register }}">{{ text_register }}</a></li> -->
             <!-- <li><a href="{{ login }}">{{ text_login }}</a></li> -->
 							</ul>
-							
+								
 						</div>
 					</div>
 					
@@ -75,18 +93,7 @@
 			
 		</nav>
 		
-		<div id="sub-menu">
-			<div class = "container">
-		
-					<div class="pull-right">
-					<a href="{{ shopping_cart }}">{{ cart }}</a>
-					
-					<div style="clear:both"></div>
-					</div>
-				</div>
-			
-		
-		</div>
+
 		
 
 		

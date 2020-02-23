@@ -834,6 +834,31 @@ a:focus, a:hover {
 		margin-bottom:20px;
 }
 
+
+#free-shipping{
+	
+	background-color:white;
+	color:black;
+}
+
+#free-shipping p {
+	text-align:center;
+	margin:10px;
+	
+	}
+	
+#free-shipping p .fa {	
+	margin-right: 11px;
+    color: red;
+    font-size: 16px;
+	
+}
+	
+	
+#free-shipping p span{
+	font-weight:600;
+}
+
 #menu {
     background-color: #000000;
     background-image: none;
@@ -864,7 +889,7 @@ float: left;
     margin-top: 33px;
     font-size: 16px;
     font-family: arial;
-    padding: 4px 5px;
+    padding: 0px 5px;
 }
 
 #nawigacja ul li a{
@@ -877,9 +902,10 @@ color:white;
 }
 
 
-#login-button {
-	
-	background-color:#e31e24;
+#login-button img {
+	margin-right: 8px;
+    margin-top: -6px;
+
 }
 
 
@@ -895,10 +921,27 @@ color:white;
 color:white;
 }
 
+#koszyk{
+	
+	
+}
+
+#koszyk img{
+	
+float: left;
+    margin-right: 6px;
+    margin-top: -2px;
+
+}
+
+#button-cart{
+	background-color:#519ed4;
+	border-radius:6px;
+}
 #cart-total{
 	margin-top:3px;
 	margin-bottom:3px;
-	
+	color:white;
 }
 
 #baner{
@@ -972,13 +1015,13 @@ margin-right:20px;
 	    font-weight: 600;
 }
 
-#dlaczego-warto p{
-
-	    text-align: center;
+#dlaczego-warto p {
+    text-align: center;
     line-height: 1.8;
-	color:#353535;
-	font-size:18px;
-
+    color: #353535;
+    font-size: 15px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .skladniki img{
@@ -1007,6 +1050,7 @@ margin-right:20px;
 #porady{
 	
 	margin-top:120px;
+	margin-bottom:120px;
 }
 
 #porady .porada {
