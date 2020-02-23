@@ -1085,10 +1085,20 @@ font-size:15px;
 
 
 
+.panel-default .img-thumbnail {
 
 
+    background-color: #000;
+	
+}
 
 
+.skladniki{
+	background-image:url('/image/catalog/tlo-kreski.png');
+	    background-size: cover;
+		min-height: 670px;
+		padding-top:20px;
+}
 
 
 
