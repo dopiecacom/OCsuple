@@ -133,6 +133,15 @@ $(document).ready(function() {
 	$(document).ajaxStop(function() {
 		$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
 	});
+	
+	
+	// yszty
+	
+	var temp_text = $('#product-product h1').text();
+	
+	
+	$('#product-product h1').html( temp_text.charAt(0) + '<span>' + temp_text.substring(1) + '</span>' );
+	
 });
 
 // Cart add remove functions

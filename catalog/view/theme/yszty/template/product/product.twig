@@ -17,7 +17,7 @@
       <div class="row"> {% if column_left or column_right %}
         {% set class = 'col-sm-6' %}
         {% else %}
-        {% set class = 'col-sm-8' %}
+        {% set class = 'col-sm-6' %}
         {% endif %}
         <div class="{{ class }}"> {% if thumb or images %}
           <ul class="thumbnails">
@@ -37,11 +37,12 @@
         {% if column_left or column_right %}
         {% set class = 'col-sm-6' %}
         {% else %}
-        {% set class = 'col-sm-4' %}
+        {% set class = 'col-sm-6' %}
         {% endif %}
         <div class="{{ class }}">
  
           <h1>{{ heading_title }}</h1>
+		   <h5>Siła i energia każdego dnia</h5>
           <ul class="list-unstyled">
             {% if manufacturer %}
             <li>{{ text_manufacturer }} <a href="{{ manufacturers }}">{{ manufacturer }}</a></li>
@@ -56,7 +57,7 @@
           <ul class="list-unstyled">
             {% if not special %}
             <li>
-              <h2>{{ price }}</h2>
+              <h2>{{ price }}<span> / 50 kaps.</span></h2>
             </li>
             {% else %}
             <li><span style="text-decoration: line-through;">{{ price }}</span></li>
