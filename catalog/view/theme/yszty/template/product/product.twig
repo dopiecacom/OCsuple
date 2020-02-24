@@ -41,14 +41,14 @@
         {% endif %}
         <div class="{{ class }}">
  
-          <h1>{{ heading_title }}</h1>
+          <h1 id="product_title">{{ heading_title }}</h1>
 		   <h5>Siła i energia każdego dnia</h5>
          
           {% if price %}
           <ul class="list-unstyled">
             {% if not special %}
             <li>
-              <h2>{{ price }}<span> / 50 kaps.</span></h2>
+              <h2 id="prajs">{{ price }}<span> / 50 kaps.</span></h2>
             </li>
             {% else %}
             <li><span style="text-decoration: line-through;">{{ price }}</span></li>
@@ -458,32 +458,68 @@
 		  
 		  
 		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  <ul class="list-unstyled">
-            {% if manufacturer %}
-            <li>{{ text_manufacturer }} <a href="{{ manufacturers }}">{{ manufacturer }}</a></li>
-            {% endif %}
+			  <!-- <ul class="list-unstyled"> -->
+            <!-- {% if manufacturer %} -->
+            <!-- <li>{{ text_manufacturer }} <a href="{{ manufacturers }}">{{ manufacturer }}</a></li> -->
+            <!-- {% endif %} -->
             <!-- <li>{{ text_model }} {{ model }}</li> -->
-            {% if reward %}
-            <li>{{ text_reward }} {{ reward }}</li>
-            {% endif %}
-            <li>{{ text_stock }} {{ stock }}</li>
-          </ul>
+            <!-- {% if reward %} -->
+            <!-- <li>{{ text_reward }} {{ reward }}</li> -->
+            <!-- {% endif %} -->
+            <!-- <li>{{ text_stock }} {{ stock }}</li> -->
+          <!-- </ul>	   -->
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		
+<div class="icons">
+<table>
+<tr>
+<td>
+<i class="fa fa-truck" aria-hidden="true"></i>
+</td>
+<td>
+<span class="ico-title available">{{ text_stock }} {{ stock }}</span>
+<br>
+
+		  Dostawa najpóźniej w piątek: 
+		  {{ post.published_at|date_modify("next Friday +1 week")|date("d.m.Y") }}
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-credit-card" aria-hidden="true"></i>
+</td>
+<td>
+<span class="ico-title">BEZPIECZNE PŁATNOŚCI</span><br>
+DOGODNE FORMY
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-refresh" aria-hidden="true"></i>
+</td>
+<td>
+<span class="ico-title">WYMIANA LUB ZWROT</span><br>
+DO 60 DNI
+</td>
+</tr>
+</table>
+</div>
+
+		
+
 		  
 		  </div>
       </div>

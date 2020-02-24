@@ -1167,8 +1167,15 @@ font-size:15px;
 
 #product-product h2 span{
 	
-	    font-size: 17px;
+	    font-size: 20px;
 }
+
+#product-product #prajs{
+	margin: 30px 0;
+    font-size: 41px;
+    font-weight: 600;
+}
+
 
 
 #product-product h5 {
@@ -1201,6 +1208,7 @@ font-size:15px;
 #product-product .tab-content table {
 	border-collapse: separate;
     border-spacing: 0 8px;
+	margin: 40px 0;
 }
 
 
@@ -1225,6 +1233,49 @@ font-size:15px;
 	width: 100%;
     margin-top: 15px;
 }
+
+
+
+
+
+
+
+
+#product_title{
+	
+	margin-top:45px;
+}
+
+
+.icons i{
+	
+	font-size: 40px;
+    color: #e31e24;
+	margin-right: 25px;
+}
+
+.icons .ico-title{
+	font-weight:700;
+}
+
+.icons .available{
+	color:rgba(103, 186, 5, 1);;
+}
+
+
+.icons table {
+    border-collapse: separate;
+    border-spacing: 0 30px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
 
 
 
