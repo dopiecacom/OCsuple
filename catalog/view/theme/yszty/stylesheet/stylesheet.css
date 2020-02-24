@@ -1271,7 +1271,10 @@ font-size:15px;
 
 
 
-
+#product-product #input-quantity{
+	display:none;
+	
+}
 
 
 

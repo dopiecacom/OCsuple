@@ -158,19 +158,27 @@
 		  <div id="buy-buttons">
 		  <div class="row">
 		  <div class="col-md-4">
-		  <button type="button" id="" class="btn baton">1 szt.</button>
+		
+		  <button type="button" id="button1" value="1"  class="btn baton guzik-od-quantity">1 szt.</button>
 		  </div> 
 		  <div class="col-md-4">
-		  <button type="button" id="" class="btn baton">2 szt.</button>
+		  <button type="button" id="button2"  value="2" class="btn baton guzik-od-quantity">2 szt.</button>
 		  </div> 
 		  <div class="col-md-4">
-		  <button type="button" id="" class="btn baton">3 szt.</button>
+		  <button type="button" id="button3" value="3" class="btn baton guzik-od-quantity">3 szt.</button>
 		  </div> 		  
 		  </div>
 		  </div>
 		  
 		  
+		  <script type="text/javascript">
+		  $(document).ready(function() {
+		  $('.guzik-od-quantity').click(function(){
+		  		   $('#input-quantity').val($(this).val());
+			});
+			});
 		  
+		  </script>
 		  
 		  
 		  
@@ -294,7 +302,7 @@
             {% endif %}
             <div class="form-group">
             
-              <!-- <input type="text" name="quantity" value="{{ minimum }}" size="2" id="input-quantity" class="form-control" /> -->
+            <input type="text" name="quantity" value="{{ minimum }}" size="2" id="input-quantity" class="form-control" /> 
               <input type="hidden" name="product_id" value="{{ product_id }}" />
              
               <button type="button" id="button-cart" data-loading-text="{{ text_loading }}" class="btn btn-primary btn-lg ">{{ button_cart }}</button>
