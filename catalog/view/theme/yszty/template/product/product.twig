@@ -43,36 +43,7 @@
  
           <h1 id="product_title">{{ heading_title }}</h1>
 		   <h5>Siła i energia każdego dnia</h5>
-         
-          {% if price %}
-          <ul class="list-unstyled">
-            {% if not special %}
-            <li>
-              <h2 id="prajs">{{ price }}<span> / 50 kaps.</span></h2>
-            </li>
-            {% else %}
-            <li><span style="text-decoration: line-through;">{{ price }}</span></li>
-            <li>
-              <h2>{{ special }}</h2>
-            </li>
-            {% endif %}
-            {% if tax %}
-            <li>{{ text_tax }} {{ tax }}</li>
-            {% endif %}
-            {% if points %}
-            <li>{{ text_points }} {{ points }}</li>
-            {% endif %}
-            {% if discounts %}
-            <li>
-              <hr>
-            </li>
-            {% for discount in discounts %}
-            <li>{{ discount.quantity }}{{ text_discount }}{{ discount.price }}</li>
-            {% endfor %}
-            {% endif %}
-          </ul>
-          {% endif %}
-         
+
 			
 			
 			
@@ -150,6 +121,38 @@
               </form>
             </div>
             {% endif %}</div>
+			
+			         
+          {% if price %}
+          <ul class="list-unstyled">
+            {% if not special %}
+            <li>
+              <h2 id="prajs">{{ price }}<span> / 50 kaps.</span></h2>
+            </li>
+            {% else %}
+            <li><span style="text-decoration: line-through;">{{ price }}</span></li>
+            <li>
+              <h2>{{ special }}</h2>
+            </li>
+            {% endif %}
+            {% if tax %}
+            <li>{{ text_tax }} {{ tax }}</li>
+            {% endif %}
+            {% if points %}
+            <li>{{ text_points }} {{ points }}</li>
+            {% endif %}
+            {% if discounts %}
+            <li>
+              <hr>
+            </li>
+            {% for discount in discounts %}
+            <li>{{ discount.quantity }}{{ text_discount }}{{ discount.price }}</li>
+            {% endfor %}
+            {% endif %}
+          </ul>
+          {% endif %}
+         
+			
           {% if review_status %}
 
           {% endif %} 
@@ -159,7 +162,7 @@
 		  <div class="row">
 		  <div class="col-md-4">
 		
-		  <button type="button" id="button1" value="1"  class="btn baton guzik-od-quantity">1 szt.</button>
+		  <button type="button" id="button1" value="1"  class="btn baton guzik-od-quantity aktywny">1 szt.</button>
 		  </div> 
 		  <div class="col-md-4">
 		  <button type="button" id="button2"  value="2" class="btn baton guzik-od-quantity">2 szt.</button>
@@ -175,6 +178,8 @@
 		  $(document).ready(function() {
 		  $('.guzik-od-quantity').click(function(){
 		  		   $('#input-quantity').val($(this).val());
+				   $('.guzik-od-quantity').removeClass('aktywny');
+				   $(this).addClass('aktywny');
 			});
 			});
 		  
@@ -305,7 +310,7 @@
             <input type="text" name="quantity" value="{{ minimum }}" size="2" id="input-quantity" class="form-control" /> 
               <input type="hidden" name="product_id" value="{{ product_id }}" />
              
-              <button type="button" id="button-cart" data-loading-text="{{ text_loading }}" class="btn btn-primary btn-lg ">{{ button_cart }}</button>
+              <button type="button" id="button-cart" data-loading-text="{{ text_loading }}" class="btn btn-primary btn-lg ">{{ button_cart }} <img src="/image/shopping-bag-solid.svg"></button>
             </div>
             {% if minimum > 1 %}
             <div class="alert alert-info"><i class="fa fa-info-circle"></i> {{ text_minimum }}</div>

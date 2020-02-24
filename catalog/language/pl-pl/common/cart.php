@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_items']     = 'Twój koszyk (%s)';
+$_['text_items']     = 'Twój koszyk';
 $_['text_empty']     = 'Koszyk jest pusty!';
 $_['text_cart']      = 'Zobacz koszyk';
 $_['text_checkout']  = 'Przejdź do kasy';

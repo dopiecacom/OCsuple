@@ -939,7 +939,28 @@ float: left;
 #button-cart{
 	background-color:#519ed4;
 	border-radius:6px;
+	    width: 85%;
+    margin-top: 17px;
 }
+
+
+
+#button-cart:hover{
+    background-color: #0d7ece;
+}
+
+#button-cart img{
+	
+margin-left:10px;	  
+height: auto;
+    width: 14px;
+
+}
+
+
+	
+
+
 #cart-total{
 	margin-top:3px;
 	margin-bottom:3px;
@@ -1148,6 +1169,12 @@ font-size:15px;
 
 
 
+#product-product {
+	
+margin-top: 55px;	
+}
+
+
 #product-product h1 {
 	
 	    font-family: Hevitas;
@@ -1167,21 +1194,25 @@ font-size:15px;
 
 #product-product h2 span{
 	
-	    font-size: 20px;
+	        font-size: 18px;
 }
 
 #product-product #prajs{
-	margin: 30px 0;
-    font-size: 41px;
+	margin: 0 0;
+      font-size: 33px;
     font-weight: 600;
+	    margin-top: 25px;
+    margin-bottom: 40px;
+	
 }
 
 
 
 #product-product h5 {
 	margin:0;
-	font-size:20px;
-
+font-size: 20px;
+    font-family: BebasNeue;
+	
 	
 	
 }
@@ -1189,9 +1220,9 @@ font-size:15px;
 
 
 #product-product span.bull {
-    font-size: 36px;
+    font-size: 30px;
     float: left;
-	color:#e31e24;
+	color:#b7b7b7;
 	margin-right:8px;
 }
 
@@ -1207,8 +1238,9 @@ font-size:15px;
 
 #product-product .tab-content table {
 	border-collapse: separate;
-    border-spacing: 0 8px;
+    border-spacing: 0 15px;
 	margin: 40px 0;
+	    margin-bottom: 0;
 }
 
 
@@ -1219,25 +1251,24 @@ font-size:15px;
 	
 }
 
-
 .baton {
-	color: #212529;
+
+		color:#b7b7b7;
     background-color: #f8f9fa;
-    border-color: black;
+    border-color: #b7b7b7;
 	width: 150px;
+	
+		outline:none!important;
+
 }
 
 
 
-#button-cart{
-	width: 100%;
-    margin-top: 15px;
-}
+.baton.aktywny{
+	color: #212529;
+border-color:#4c4c4c;	
 
-
-
-
-
+}	
 
 
 
@@ -1249,9 +1280,9 @@ font-size:15px;
 
 .icons i{
 	
-	font-size: 40px;
-    color: #e31e24;
-	margin-right: 25px;
+    font-size: 30px;
+    color: #b7b7b7;
+    margin-right: 25px;
 }
 
 .icons .ico-title{
@@ -1266,7 +1297,7 @@ font-size:15px;
 .icons table {
     border-collapse: separate;
     border-spacing: 0 30px;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 
