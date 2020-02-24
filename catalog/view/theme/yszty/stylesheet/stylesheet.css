@@ -948,7 +948,7 @@ float: left;
 
 #baner{
 	
-background:url("http://nitro.dopieca.com/image/catalog/baner.png");	
+background:url("/image/catalog/baner.png");	
 min-height:485px;
 }
 
@@ -1178,6 +1178,57 @@ font-size:15px;
 	
 	
 }
+
+
+
+#product-product span.bull {
+    font-size: 36px;
+    float: left;
+	color:#e31e24;
+	margin-right:8px;
+}
+
+
+
+#product-product .tab-content tr {
+    vertical-align: top;
+}
+
+#product-product .tab-content td {
+    font-size: 15px;
+}
+
+#product-product .tab-content table {
+	border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+
+#buy-buttons{
+	max-width: 450px;
+    /* padding: 0; */
+    margin-top: 20px;
+	
+}
+
+
+.baton {
+	color: #212529;
+    background-color: #f8f9fa;
+    border-color: black;
+	width: 150px;
+}
+
+
+
+#button-cart{
+	width: 100%;
+    margin-top: 15px;
+}
+
+
+
+
 
 
 
