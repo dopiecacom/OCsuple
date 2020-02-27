@@ -900,15 +900,18 @@ a:focus, a:hover {
 #nawigacja ul {
 	list-style: none;
 	 display: inline-block;
+	 padding: 0;
 }
 	
 #nawigacja ul li{
 float: left;
-    margin-right: 40px;
+ 
     margin-top: 33px;
     font-size: 16px;
     font-family: arial;
     padding: 0px 5px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 
