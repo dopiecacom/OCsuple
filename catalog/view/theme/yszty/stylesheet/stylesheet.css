@@ -1265,16 +1265,18 @@ margin-bottom: inherit;
 
 #porady .porada {
 	    margin-bottom: 40px;
+		    text-align: center;
 }
 #porady .porada img{
-	float:left;
-	    padding-bottom: 13px;
 
+	    padding-bottom: 13px;
+margin: 0 auto;
+    display: block;
 
 }
 
 #porady .porada .porada-text{
-
+clear:both;
 }
 
 #porady .porada h4{
@@ -1291,10 +1293,34 @@ font-size: 17px;
 }
 
 
+@media only screen and (min-width: 485px) {
+	
+	#porady .porada {
+	 
+		    text-align: left;
+}
+	
+	#porady .porada .porada-text{
+
+	clear:none;
+}
+
+#porady .porada img{
+	float:left;
+	padding-bottom: 13px;
+margin: 0 auto;
+  
+
+}
+
+
+}
+
+
 @media only screen and (min-width: 768px) {
 
 #porady .porada img{
-	
+	clear:none;
 	margin-right: 25px;
 	    padding-bottom: 0px;
 
@@ -1302,7 +1328,8 @@ font-size: 17px;
 
 #porady .porada .porada-text{
 	padding-top: 13px;
-	    margin-right: 0;
+	margin-right: 0;
+
 }
 
 }
