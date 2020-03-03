@@ -995,9 +995,9 @@ color:white;
 color:white;
 }
 
-#koszyk{
+#koszyk a{
 	
-	
+	    position: relative;
 }
 
 #koszyk img{
@@ -1037,6 +1037,15 @@ height: auto;
 	margin-top:3px;
 	margin-bottom:3px;
 	color:white;
+	    background: red;
+    top: -20px;
+    display: block;
+    border-radius: 10px;
+    right: -5px;
+    min-width: 1.8em;
+    text-align: center;
+    font-size: 0.7em;
+	position:absolute;
 }
 
 .tlo-mobile{
