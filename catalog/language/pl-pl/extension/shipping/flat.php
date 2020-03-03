@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title']       = 'Stała stawka';
-$_['text_description'] = 'Stała stawka';
+$_['text_title']       = 'Wysyłka za pobraniem';
+$_['text_description'] = 'Wysyłka za pobraniem';
